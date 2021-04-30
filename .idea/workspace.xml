@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab9a90ef-963c-4d22-a32a-77a9a6ba328d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Go_Learning.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/go_code/chapter01/main/hello.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/go_code/chapter02/escaptechar/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/go_code/chapter02/escaptechar/pkgexec/exec01.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/go_code/chapter03/basictype2string/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/go_code/chapter03/demo01/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/go_code/chapter03/demo02/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/go_code/chapter03/demo03/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/go_code/chapter03/demo04/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/go_code/chapter03/transtype/main.go" beforeDir="false" />
-    </list>
+    <list default="true" id="ab9a90ef-963c-4d22-a32a-77a9a6ba328d" name="Default Changelist" comment="Update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,5 +76,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
 </project>
