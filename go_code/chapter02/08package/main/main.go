@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"project01/go_code/chapter02/08package/exec"
 	"project01/go_code/chapter02/08package/utils"
 	util "project01/go_code/chapter02/08package/utils2" //给包取别名
 )
@@ -22,4 +23,7 @@ func main() {
 	fmt.Printf("x * y = %.2f\n", utils.Cal(x, y, '*'))
 	fmt.Printf("x / y = %.2f\n", utils.Cal(x, y, '/'))
 	fmt.Printf("~~ x / y = %.2f\n", util.Cal(x, y, '/'))
+	for i := 1; i <= 10; i++ {
+		fmt.Print(exec.FibonacciNum(i), " ")
+	}
 }

@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab9a90ef-963c-4d22-a32a-77a9a6ba328d" name="Default Changelist" comment="Update">
-      <change afterPath="$PROJECT_DIR$/go_code/chapter02/04break/main/mian.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/chapter02/05continue/main/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/chapter02/06goto/main/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/chapter02/07function/main/mian.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/chapter02/08package/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/chapter02/08package/main/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/chapter02/08package/utils/utils.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/chapter02/08package/utils2/utils2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/chapter02/08package/exec/exec01.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/chapter01/01var/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/chapter01/01var/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/chapter01/02byte/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/chapter01/02byte/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/chapter01/04transtype/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/chapter01/04transtype/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/chapter01/05basictype2string/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/chapter01/05basictype2string/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/chapter01/06stringtobasictype/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/chapter01/06stringtobasictype/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/chapter01/07pointerdemo/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/chapter01/07pointerdemo/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/chapter01/08package/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/chapter01/08package/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/chapter02/03for/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/chapter02/03for/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_code/chapter02/07function/main/mian.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/chapter02/07function/main/mian.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_code/chapter02/08package/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/chapter02/08package/main/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,14 +57,14 @@
       <recent name="F:\Projects\go\src\project01\go_code\chapter02\08package\utils" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Projects\go\src\project01\go_code\chapter02\08package" />
       <recent name="F:\Projects\go\src\project01\go_code\chapter01\07pointerdemo\main" />
       <recent name="F:\Projects\go\src\project01\go_code\chapter01\06stringtobasictype\main" />
       <recent name="F:\Projects\go\src\project01\go_code\chapter01\05basictype2string\main" />
       <recent name="F:\Projects\go\src\project01\go_code\chapter01\04transtype\main" />
-      <recent name="F:\Projects\go\src\project01\go_code\chapter01\02byte\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go">
+  <component name="RunManager" selected="Go Build.go build mian.go (1)">
     <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="project01" />
       <working_directory value="$PROJECT_DIR$" />
@@ -125,8 +112,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build mian.go (1)" />
+        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build main.go (3)" />
         <item itemvalue="Go Build.go build main.go (2)" />
         <item itemvalue="Go Build.go build mian.go" />
