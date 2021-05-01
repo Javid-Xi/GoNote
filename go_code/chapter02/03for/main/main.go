@@ -10,7 +10,7 @@ func main() {
 		fmt.Println("hello Javid")
 	}
 
-	//for循环的第二种写法
+	//for循环的第二种写法 此写法相当于其他语言的while golang中没有while
 	j := 1
 	for j <= 3 {
 		fmt.Println("hello Javid Xi")
