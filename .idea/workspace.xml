@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab9a90ef-963c-4d22-a32a-77a9a6ba328d" name="Default Changelist" comment="Update">
-      <change afterPath="$PROJECT_DIR$/go_code/chapter02/12defer/main/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/chapter02/13string/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/chapter02/14time/main/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,14 +62,14 @@
       <recent name="F:\Projects\go\src\project01\go_code\chapter01\04transtype\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (4)">
-    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build main.go (1)">
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="project01" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="project01" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/go_code/chapter02/10anonymousfunc/main/main.go" />
+      <filePath value="$PROJECT_DIR$/go_code/chapter02/14time/main/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -100,22 +99,22 @@
       <filePath value="$PROJECT_DIR$/go_code/chapter02/12defer/main/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build mian.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build project01/go_code/chapter02/14time/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="project01" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="project01" />
+      <kind value="PACKAGE" />
+      <package value="project01/go_code/chapter02/14time/main" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/go_code/chapter02/10anonymousfunc/mian/mian.go" />
+      <filePath value="$PROJECT_DIR$/go_code/chapter02/14time/main/main.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go (1)" />
+        <item itemvalue="Go Build.go build project01/go_code/chapter02/14time/main" />
         <item itemvalue="Go Build.go build main.go (4)" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build main.go (3)" />
-        <item itemvalue="Go Build.go build main.go (2)" />
-        <item itemvalue="Go Build.go build mian.go" />
       </list>
     </recent_temporary>
   </component>
