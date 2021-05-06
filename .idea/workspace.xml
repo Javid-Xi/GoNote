@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab9a90ef-963c-4d22-a32a-77a9a6ba328d" name="Default Changelist" comment="Update">
-      <change afterPath="$PROJECT_DIR$/go_code/chapter02/14time/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/chapter02/15builtin/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/chapter02/16error/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/chapter03/01array/exec/exec01.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/chapter03/01array/exec/exec02.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/chapter03/01array/exec/exec03.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/chapter03/01array/exec/exec04.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/chapter03/01array/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/chapter03/02slice/exec/exec01.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/chapter03/02slice/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_code/chapter03/03stringSlice/main/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +57,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -69,25 +78,16 @@
       <kind value="FILE" />
       <package value="project01" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/go_code/chapter02/14time/main/main.go" />
+      <filePath value="$PROJECT_DIR$/go_code/chapter03/02slice/main/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="project01" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="project01" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/go_code/chapter02/11closure/main/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="project01" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="project01" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/go_code/chapter02/13string/main/main.go" />
+      <filePath value="$PROJECT_DIR$/go_code/chapter02/16error/main/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -96,25 +96,34 @@
       <kind value="FILE" />
       <package value="project01" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/go_code/chapter02/12defer/main/main.go" />
+      <filePath value="$PROJECT_DIR$/go_code/chapter03/01array/main/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build project01/go_code/chapter02/14time/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build project01/go_code/chapter03/02slice/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="project01" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="project01/go_code/chapter02/14time/main" />
+      <package value="project01/go_code/chapter03/02slice/main" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/go_code/chapter02/14time/main/main.go" />
+      <filePath value="$PROJECT_DIR$/go_code/chapter03/02slice/main/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build project01/go_code/chapter03/03stringSlice/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="project01" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="project01/go_code/chapter03/03stringSlice/main" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/go_code/chapter03/03stringSlice/main/main.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build project01/go_code/chapter02/14time/main" />
-        <item itemvalue="Go Build.go build main.go (4)" />
+        <item itemvalue="Go Build.go build main.go (2)" />
+        <item itemvalue="Go Build.go build project01/go_code/chapter03/03stringSlice/main" />
+        <item itemvalue="Go Build.go build project01/go_code/chapter03/02slice/main" />
         <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Build.go build main.go (3)" />
       </list>
     </recent_temporary>
   </component>
