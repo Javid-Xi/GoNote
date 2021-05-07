@@ -26,6 +26,7 @@ func main() {
 	fmt.Println("slice 的容量 =", cap(slice))
 
 	// 切片内存布局分析
+	fmt.Printf("intArr的地址 = %p\n", &intArr)
 	fmt.Printf("intArr[1]的地址 = %p\n", &intArr[1])
 	fmt.Printf("slice[0]的地址 = %p\n", &slice[0])
 	fmt.Printf("slice的地址 = %p\n", &slice)
