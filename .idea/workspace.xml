@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ab9a90ef-963c-4d22-a32a-77a9a6ba328d" name="Default Changelist" comment="Update">
-      <change afterPath="$PROJECT_DIR$/go_code/chapter03/04multiArray/main/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_code/chapter03/05map/main/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/chapter03/02slice/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/chapter03/02slice/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_code/chapter03/05map/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/chapter03/05map/main/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

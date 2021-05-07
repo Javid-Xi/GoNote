@@ -34,9 +34,11 @@ func main() {
 	a["no4"] = "Tom"
 	a["no5"] = "Tom"
 	fmt.Println(a)
+	// 随便测试下 map 的扩容
 	for i := 0; i < 20; i++ {
 		rand.Seed(time.Now().UnixNano()) // 给其当前的时间戳 给纳秒比较好
 		a[strconv.FormatInt(int64(rand.Intn(1000)), 10)] = "Javid" + strconv.FormatInt(int64(rand.Intn(1000)), 10)
+		time.Sleep(time.Millisecond) // 这里若不使用延时将导致添加不进去元素 因为 map 的扩容需要时间
 	}
 	fmt.Println("a size =", len(a))
 	fmt.Println(a)
@@ -144,7 +146,7 @@ func main() {
 	fmt.Println(monsters)
 
 	// 要加入元素
-	// 需要使用切片的append函数 可以动态增加 monster
+	// 需要使用切片的append函数 可以动态增加 monster切片
 	newMonster := map[string]string{
 		"name": "火云邪神",
 		"age":  "200",
