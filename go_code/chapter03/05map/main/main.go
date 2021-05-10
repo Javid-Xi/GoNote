@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"math/rand"
+	"sort"
 	"strconv"
 	"time"
 )
@@ -153,4 +154,99 @@ func main() {
 	}
 	monsters = append(monsters, newMonster)
 	fmt.Println(monsters)
+
+	/**
+	 * Description: map 排序
+	 */
+	// go 中没有一个专门的方法针对map的 key 进行排序
+	// go 中 map默认是无序的
+	map1 := make(map[int]int, 10)
+	map1[10] = 100
+	map1[12] = 100
+	map1[1] = 120
+	map1[2] = 20
+	map1[4] = 40
+	map1[8] = 80
+	fmt.Println(map1)
+
+	// 利用切片排序
+	var keys []int
+	for k, _ := range map1 {
+		keys = append(keys, k)
+	}
+	// 排序
+	sort.Ints(keys)
+	fmt.Println(keys)
+
+	for _, k := range keys {
+		fmt.Printf("map1[%v] = %v\n", k, map1[k])
+	}
+
+	/**
+	 * Description: map 的使用细节和陷阱
+	 */
+	// map是引用类型 作为参数传到其他函数里的修改会影响原来map的值
+	fmt.Println("--- map 的使用细节和陷阱 ---")
+	modify(map1)
+	fmt.Println("map1 =", map1)
+
+	// map会自动进行扩容 而切片不会
+	// map的 value 经常使用结构体类型， 更适合管理复杂的数据结构
+	// map的key为学生学号 value为学生结构的结构体
+	studentsMap2 := make(map[string]Stu, 10)
+	// 创建两个学生
+	stu1 := Stu{"tom", 18, "北京"}
+	stu2 := Stu{"mary", 20, "上海"}
+	studentsMap2["no1"] = stu1
+	studentsMap2["no2"] = stu2
+	fmt.Println("studentsMap2 =", studentsMap2)
+
+	// 遍历方式打印
+	for k, v := range studentsMap2 {
+		fmt.Printf("学号%v\t", k)
+		fmt.Printf("姓名%v\t", v.Name)
+		fmt.Printf("年龄%v\t", v.Age)
+		fmt.Printf("地址%v\n", v.Address)
+	}
+
+	/**
+	 * Description: 练习
+	 */
+	// 如果某个用户名存在就将其密码修改为"888888"
+	// 若不存在就增加这个用户信息
+	fmt.Println("--- 练习 ---")
+	users := make(map[string]map[string]string, 10)
+	users["smith"] = make(map[string]string, 2)
+	users["smith"]["pwd"] = "777777"
+	users["smith"]["nickname"] = "小花猫"
+	fmt.Println("原users =", users)
+	modifyUser(users, "tom")
+	modifyUser(users, "mary")
+	modifyUser(users, "smith")
+	fmt.Println("users =", users)
+
+}
+
+// 定义学生结构体
+type Stu struct {
+	Name    string
+	Age     int
+	Address string
+}
+
+func modify(map1 map[int]int) {
+	map1[10] = 999
+}
+
+func modifyUser(users map[string]map[string]string, name string) {
+	// 判断users中有无name
+	if users[name] != nil {
+		// 有这个用户
+		users[name]["pwd"] = "888888"
+	} else {
+		// 没有这个用户
+		users[name] = make(map[string]string)
+		users[name]["pwd"] = "888888"
+		users[name]["nickname"] = "昵称~" + name // 示意
+	}
 }
