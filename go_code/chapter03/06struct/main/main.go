@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"encoding/json"
+	"fmt"
+)
 
 /**
  * Description: struct
@@ -53,9 +56,53 @@ func main() {
 	var p3 *Person = &Person{"Javid", 22}
 	fmt.Println(*p3)
 
+	/**
+	 * Description: 结构体内存分配机制
+	 */
+	fmt.Println("--- 结构体内存分配机制 ---")
+	var p4 *Person = &p1
+	p4.Name = "Javid"
+	p4.Age = 22
+	fmt.Printf("p1.Name = %v\tp1.Name = %v\n", p1.Name, p1.Name)
+	fmt.Printf("p4.Name = %v\tp4.Name = %v\n", p4.Name, p4.Name)
+
+	fmt.Printf("p1的地址 = %p\n", &p1)
+	fmt.Printf("p4的地址 = %p\n", &p4)
+	fmt.Printf("p4的值 = %p\n", p4)
+
+	/**
+	 * Description: 结构体使用细节
+	 */
+	// 结构体所有字段在内存中连续分布
+	// 结构体是用户单独定义的类型，和其他类型进行转换时需要有完全相同的字段
+
+	// 结构体进行type重新定义（相当于取别名） golang认为是新的数据类型 但是相互可以强转
+	var p5 Per
+	// p5 = p1 错误 需要强制转换
+	p5 = Per(p1)
+	fmt.Println(p5)
+
+	// struct 的每个字段上，可以写一个tag，该tag可以通过反射机制获取，常见的使用场景就是序列化和反序列化
+	monster := Monster{"牛魔王", 500, "芭蕉扇~"}
+
+	// 将monster变量序列化成json字符串
+	// json.Marshal 中使用到反射 （反射章节会有详细介绍 ）
+	jsonStr, err := json.Marshal(monster)
+	if err != nil {
+		fmt.Println("json处理错误", err)
+	}
+	fmt.Println("jsonStr = ", string(jsonStr))
 }
+
+type Per Person
 
 type Person struct {
 	Name string
 	Age  int
+}
+
+type Monster struct {
+	Name  string `json:"name"` // 结构体标签 struct tag
+	Age   int    `json:"age"`
+	Skill string `json:"skill"`
 }
