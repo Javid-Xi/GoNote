@@ -1,8 +1,8 @@
 package main
 
 import (
+	"GoNote/go_code/chapter03/07method/exec"
 	"fmt"
-	"project01/go_code/chapter03/07method/exec"
 )
 
 /**

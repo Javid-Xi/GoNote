@@ -1,8 +1,8 @@
 package main
 
 import (
+	"GoNote/go_code/chapter02/09init/utils"
 	"fmt"
-	"project01/go_code/chapter02/09init/utils"
 )
 
 // 每一个源文件都可以包含一个init函数

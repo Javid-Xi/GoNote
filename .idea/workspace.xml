@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab9a90ef-963c-4d22-a32a-77a9a6ba328d" name="Default Changelist" comment="Update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_code/chapter03/02slice/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_code/chapter03/02slice/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GoNote/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GoNote/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GoNote/.idea/project01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../GoNote/.idea/GoNote.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GoNote/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GoNote/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GoNote/go_code/chapter01/08package/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../GoNote/go_code/chapter01/08package/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GoNote/go_code/chapter02/08package/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../GoNote/go_code/chapter02/08package/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GoNote/go_code/chapter02/09init/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../GoNote/go_code/chapter02/09init/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GoNote/go_code/chapter03/01array/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../GoNote/go_code/chapter03/01array/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GoNote/go_code/chapter03/02slice/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../GoNote/go_code/chapter03/02slice/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GoNote/go_code/chapter03/07method/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../GoNote/go_code/chapter03/07method/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GoNote/go_code/chapter03/09factory/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../GoNote/go_code/chapter03/09factory/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GoNote/go_code/chapter03/10encapsulate/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../GoNote/go_code/chapter03/10encapsulate/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GoNote/go_code/chapter03/12interface/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../GoNote/go_code/chapter03/12interface/main/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +32,7 @@
   </component>
   <component name="GOROOT" url="file://$PROJECT_DIR$/../../../../Program Files/Go" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../GoNote" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -46,12 +56,12 @@
     <property name="configurable..is.expanded" value="false" />
     <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/go_code/chapter02/08package/utils" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GoNote" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -65,59 +75,80 @@
       <recent name="F:\Projects\go\src\project01\go_code\chapter01\04transtype\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (3)">
-    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="project01" />
+  <component name="RunManager" selected="Go Build.go build main.go (2)">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="GoNote" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
+      <go_parameters value="-i" />
+      <kind value="PACKAGE" />
       <package value="project01" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/go_code/chapter03/10encapsulate/main/main.go" />
+      <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="project01" />
-      <working_directory value="$PROJECT_DIR$" />
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoNote" />
+      <working_directory value="$PROJECT_DIR$/../GoNote" />
       <kind value="FILE" />
       <package value="project01" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/go_code/chapter03/12interface/main/main.go" />
+      <filePath value="$PROJECT_DIR$/../GoNote/go_code/chapter02/09init/main/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoNote" />
+      <working_directory value="$PROJECT_DIR$/../GoNote" />
+      <kind value="FILE" />
+      <package value="project01" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/../GoNote/go_code/chapter01/08package/main/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (5)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoNote" />
+      <working_directory value="$PROJECT_DIR$/../GoNote" />
+      <kind value="FILE" />
+      <package value="project01" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/../GoNote/go_code/chapter02/15builtin/main/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="project01" />
-      <working_directory value="$PROJECT_DIR$" />
+      <module name="GoNote" />
+      <working_directory value="$PROJECT_DIR$/../GoNote" />
       <kind value="FILE" />
       <package value="project01" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/go_code/chapter03/11extends/main/main.go" />
+      <filePath value="$PROJECT_DIR$/../GoNote/go_code/chapter02/08package/main/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build project01/go_code/chapter03/10encapsulate/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="project01" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="project01/go_code/chapter03/10encapsulate/main" />
+    <configuration name="go build mian.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoNote" />
+      <working_directory value="$PROJECT_DIR$/../GoNote" />
+      <kind value="FILE" />
+      <package value="project01" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/go_code/chapter03/10encapsulate/main/main.go" />
+      <filePath value="$PROJECT_DIR$/../GoNote/go_code/chapter02/07function/main/mian.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build project01/go_code/chapter03/11extends/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="project01" />
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="GoNote" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="project01/go_code/chapter03/11extends/main" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <package value="project01" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/go_code/chapter03/11extends/main/main.go" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build main.go (3)" />
-        <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Build.go build project01/go_code/chapter03/11extends/main" />
         <item itemvalue="Go Build.go build main.go (2)" />
-        <item itemvalue="Go Build.go build project01/go_code/chapter03/10encapsulate/main" />
+        <item itemvalue="Go Build.go build mian.go" />
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build main.go (1)" />
+        <item itemvalue="Go Build.go build main.go (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -138,6 +169,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="Update" />
     <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>

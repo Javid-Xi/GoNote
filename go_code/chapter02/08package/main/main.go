@@ -1,10 +1,10 @@
 package main
 
 import (
+	"GoNote/go_code/chapter02/08package/exec"
+	"GoNote/go_code/chapter02/08package/utils"
+	util "GoNote/go_code/chapter02/08package/utils2" //给包取别名
 	"fmt"
-	"project01/go_code/chapter02/08package/exec"
-	"project01/go_code/chapter02/08package/utils"
-	util "project01/go_code/chapter02/08package/utils2" //给包取别名
 )
 
 //编译时需要编译main包所在的文件夹

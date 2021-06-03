@@ -1,9 +1,9 @@
 package main
 
 import (
+	"GoNote/go_code/chapter03/12interface/exec"
 	"fmt"
 	"math/rand"
-	"project01/go_code/chapter03/12interface/exec"
 	"sort"
 	"time"
 )

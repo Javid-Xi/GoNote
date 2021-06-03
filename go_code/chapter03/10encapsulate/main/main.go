@@ -1,8 +1,8 @@
 package main
 
 import (
+	"GoNote/go_code/chapter03/10encapsulate/model"
 	"fmt"
-	"project01/go_code/chapter03/10encapsulate/model"
 )
 
 func main() {
