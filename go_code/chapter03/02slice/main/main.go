@@ -116,7 +116,7 @@ func main() {
 	copy(slice4, slice3)
 	fmt.Println("slice4 =", slice4)
 
-	// slice3 和slice4 数据空间是相互独立的
+	// slice3 和 slice4 数据空间是相互独立的
 	slice4[2] = 0
 	fmt.Println("slice3 =", slice3)
 	fmt.Println("slice4 =", slice4)
